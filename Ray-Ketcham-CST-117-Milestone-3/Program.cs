@@ -1,10 +1,14 @@
-﻿using System;
+﻿//Name: Ray Ketcham
+//Date: 08/05/2018
+//Instructor: Dr. Smithers
+//Class: CST-117
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ray_Ketcham_CST_117_Milestone_3
+namespace Inventory
 {
     static class Program
     {
@@ -16,7 +20,7 @@ namespace Ray_Ketcham_CST_117_Milestone_3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new formAddInventory());
         }
     }
 }
